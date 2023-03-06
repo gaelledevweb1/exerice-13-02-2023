@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  
+}
+.header {
+  background-image: url(/asset/media/images/overlay3.svg) ,linear-gradient(
+    to right top,
+    #7fffd4,
+    #00dded,
+    #00b3ff,
+    #007eff,
+    #0000ff
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 20px;
+  height: 60vh;
+}
+.Cloud {
+  color: white;
+  transform: scale(2.5);
+}
+h1 {
+  font-size:28px;
+ font-weight: bold;
+  
+}
+p {
+    
+    font-size: 16px;
+    color: #666666;
+}
+button {
+  border-radius: 10px;
+  border: 1px solid white;
+   box-shadow: 1px 2Px 30px grey; 
+  cursor: pointer;
+  transition: all, 3ms;
+  width: 100px;
+  margin-right: 20px;
+  padding: 5px;
+  background-color: transparent;
+  
+  font-size: 14.4px;
+}
+button:hover {
+  background-color: whitesmoke;
+}
+.line-vertical{
+    border-left: 2px solid white;
+    height:192px;
+    position: absolute;
+    left:50%;
+    top: 363px;
+}
+
+/* main {
+} */
+.SectionUn {
+  background-color: rgb(214, 210, 210);
+}
+.Container {
+  background-color: rgb(214, 210, 210);
+
+  width: 300px;
+  height: 400px;
+  margin-right: 200px;
+}
+hr {
+  height: 2px;
+  width: 300px;
+  color: black;
+}
+.Container-img {
+  background-image: url(/asset/media/images/pexels-maël-balland-1774845.jpg);
+  background-repeat: var(--header-background-repeat);
+  background-size: var(--header-background-size);
+  width: 400px;
+    height: 300px; /*il ne faut pas mettre de hauteur a une image mais si tu l'enleves l'image n'apparait plus ? */
+}
+.SectionDeux {
+  background-image: url(/asset/media/images/istockphoto-1313300720-612x612.jpg);
+  background-repeat: var(--header-background-repeat);
+  background-size: var(--header-background-size);
+    height: 100vh;  
+}
+
+.container-SVG {
+  background-color: transparent;
+  margin-right: 30px;
+}
+.SectionTrois {
+  background-color: white;
+}
+.rect {
+  width: 200px;
+  height: 200px;
+  background-image: url(/asset/media/images/pexels-james-wheeler-1574184.jpg);
+  background-repeat: var(--header-background-repeat);
+  background-size: var(--header-background-size);
+  
+}
+
+.SectionQuatre {
+  background-image: url(/asset/media/images/pexels-jaime-reimer-2662116.jpg);
+  background-repeat: var(--header-background-repeat);
+  background-size: var(--header-background-size);
+  height: 100vh;
+  gap: var(--header-gap);
+}
+h2 {
+    font-size: 24px;
+    
+    color:#555555;
+}
+h3 {
+    font-size: 17.6px;
+    
+    color:#555555;
+}
+.footer {
+
+
+
+   background-repeat: var(--header-background-repeat);
+  background-size: var( --header-background-size);
+  gap: var(--header-gap);
+  height: 60vh;
+  background-image: url(/asset/media/images/overlay3.svg), var(--header-background-image);
+    
+}
+.Media {
+  transform: scale(2.5);
+  color: white;
+  margin-right: 40px;
+}
+.Ul{
+    list-style: none;
+} 
+li{
+    
+    font-size: 12.8px;
+    color:#ffffffbf
+}

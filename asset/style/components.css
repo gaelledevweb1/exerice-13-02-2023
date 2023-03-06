@@ -1,0 +1,49 @@
+:root{
+    --header-background-image: linear-gradient(
+        to right top,
+        #7fffd4,
+        #00dded,
+        #00b3ff,
+        #007eff,
+        #0000ff
+      );
+      --header-background-repeat: no-repeat;
+      --header-background-size: cover;
+      --header-gap: 20px;
+      
+}
+
+.ColCenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.RowCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.svg{
+     width:100px;
+    height:100px;
+     transform: rotate(45deg);
+     margin: 0 100px 100px 0;
+    background-color:transparent; 
+    border:1px solid white;
+
+    
+}
+.SVG,.SVG1{
+   
+   transform: rotate(-45deg) scale(3.7);
+   position: absolute;
+   bottom:4vh;
+   left:4vh;
+   
+}
+.SVG1{
+    transform:rotate(45deg) scale(3.7);
+}
+
